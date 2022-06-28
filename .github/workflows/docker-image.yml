@@ -1,0 +1,31 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: |
+        docker build -t logger .
+        docker run -d -p 9999:90 logger
+        ping localhost:9999 >> output.txt
+        
+        mkdir artifacts
+        mv output.txt artifacts/
+    - name: Publish
+      uses: actions/upload-artifact@v2
+    
+      with:
+        name: artifacts
+        path: artifacts/
+    

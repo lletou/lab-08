@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab03",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "formatter_ex_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formatter_ex_lib-Debug-ffd50004b9849ca79aa0.json",
+					"name" : "formatter_ex_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "formatter_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-formatter_lib-Debug-22bb5801fd8db4d5c27c.json",
+					"name" : "formatter_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hello::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hello-Debug-dfc309713d4788de450a.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "solver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solver-Debug-9994dffc16fcfcd12cf1.json",
+					"name" : "solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "solver_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-solver_lib-Debug-9fe44dad0942c309baed.json",
+					"name" : "solver_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/User/Desktop/tp/lab-08/out/build/x64-Debug",
+		"source" : "C:/Users/User/Desktop/tp/lab-08"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

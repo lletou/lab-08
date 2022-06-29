@@ -1,0 +1,7 @@
+C:/Users/User/Desktop/tp/lab-08/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Desktop/tp/lab-08/out/build/x64-Debug/CMakeFiles/formatter_lib.dir
+C:/Users/User/Desktop/tp/lab-08/out/build/x64-Debug/CMakeFiles/hello.dir
+C:/Users/User/Desktop/tp/lab-08/out/build/x64-Debug/CMakeFiles/formatter_ex_lib.dir
+C:/Users/User/Desktop/tp/lab-08/out/build/x64-Debug/CMakeFiles/solver_lib.dir
+C:/Users/User/Desktop/tp/lab-08/out/build/x64-Debug/CMakeFiles/solver.dir
+C:/Users/User/Desktop/tp/lab-08/out/build/x64-Debug/CMakeFiles/edit_cache.dir

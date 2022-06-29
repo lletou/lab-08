@@ -19,12 +19,5 @@ jobs:
         docker build -t logger .
         
         
-        mkdir artifacts
-        mv output.txt artifacts/
-    - name: Publish
-      uses: actions/upload-artifact@v2
-    
-      with:
-        name: artifacts
-        path: artifacts/
+        
     
